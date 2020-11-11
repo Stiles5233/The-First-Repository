@@ -1,0 +1,11 @@
+server:
+  port: 8020
+spring:
+  application:
+    name: student
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
